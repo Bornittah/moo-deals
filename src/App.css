@@ -1,21 +1,152 @@
+body{
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin:0;
+  padding: 0;
+}
 .top-bar{
   background-color: #233D22;
   color: #fff;
   width: 100%;
-}
-nav{
-  display: flex;
-  width: 100%;
+  height:auto;
+  position: relative;
+  display:flex;
+  justify-content: space-between;
   
 }
+
 .logo{
  flex:1;
+ margin-left:10px;
 }
 .search{
   flex:1;
+  width:100%;
+}
+.search input{
+  width:100%;
+  border-radius: 20px;
+  border: none;
+  margin:20px 5px;
+  padding:10px;
+
   
 }
 .menu{
   flex:1;
+  margin:20px 10px;
+  text-align:right;
+}
+.menu a{ 
+  color:#fff;
+  text-decoration: none;
  
 }
+.menu a:hover{
+  color:#F37908;
+  text-decoration: none;
+  border-bottom: 1px solid #F37908;
+   
+  }
+  /* home section */
+  .home{
+  background-color: #f5f3f0;
+  color: #0000;
+  width: 100%;
+  height:450px;
+  display:flex;
+
+}
+
+.side-bar{
+ flex:1;
+ margin:20px 10p;
+}
+.side-bar ul{
+ 
+  
+}
+.text{
+  flex:1;
+}
+.text h1{
+color:#000;
+margin:50px 5px;
+text-align: center;
+}
+.text p{
+  color:#ffff;
+  background-color:#F37908 ;
+  padding:10px;
+  width: 166px;
+height: 75px;
+margin: 0 auto;
+}
+.image{
+  flex:1;
+  width:100%;
+  height:85%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.image img{
+  position: relative;
+  width:100%;;
+  height: 100%;
+  border-radius: 25px;
+}
+
+/* cattle grid*/
+.cattle-section{
+  /* height:65px; */
+  background-color: #233D22;
+}
+.head-section{
+  height:20px;
+  display:block;
+  width: 80%;
+  margin: 0 auto;
+}
+.head-section h1{
+  width:60%;
+  display:inline-block;
+}
+.head-section select{
+  width:40%;
+  height: 30px;
+  display:inline-block;
+  border: none;
+}
+.cattles-for-sale{
+  /* height:auto; */
+  display:flex;
+  justify-content: space-evenly;
+  margin: 30px 10px;
+  align-items: center;
+}
+.each-cattle{
+flex:1;
+background-color: #f1f5f0;
+/* width: 168px;
+height: 201px; */
+background: #FAF4F4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.each-cattle img{
+width: 167px;
+height: 15px;
+}
+  /* footer */
+  .footer{
+    position: relative;
+    height: 30px;
+    color:#000
+  }
+  .footer ul li{
+    display: inline-block;
+    padding:8px;
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color:#000
+  }
