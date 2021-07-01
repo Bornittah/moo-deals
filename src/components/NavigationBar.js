@@ -1,4 +1,6 @@
- 
+ import React from 'react';
+ import {Link} from 'react-router-dom';
+
  const NavigationBar=()=>{
      return(
         <div className="top-bar">
@@ -10,10 +12,9 @@
                     <input type="" placeholder="Search Cattle"/>
                 </div>
                 <div className="menu">
-                    <a href=""> Login</a>/
-                    <a href=""> Register</a>
+                    <Link to="/login"><a href="">Login</a></Link>/
+                    <Link to="/register"><a href="">Register</a></Link>
                 </div>
-          
         </div>
      );
  }

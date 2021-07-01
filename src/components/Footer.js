@@ -9,7 +9,7 @@ const Footer=()=>{
                     <li><a href="">Contact Us</a></li>
                     <li><a href="">Terms & conditions</a></li>
                 </ul>
-                <span></span>
+                <a className="floating-button">top</a>
             </div>
         </div>
     )

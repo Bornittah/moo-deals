@@ -3,7 +3,6 @@ import image from '.././assets/images/ankole-bg2.png'
 const Home=()=>{
     return(
        <div className="home">
-         
                <div className="sidebar">
                    <ul>
                        <li><a href="">Beef Cattle</a></li>
@@ -12,8 +11,8 @@ const Home=()=>{
                    </ul>
                </div>
                <div className="text">
-                   <h1>ONLINE CATTLE SELLING APP</h1>
-                   <p>Making it easier  for buyers and sellers of cattle in the Uganda </p>
+                   <h1>ONLINE CATTLE <br/> SELLING APP</h1>
+                   <p>Making it easier <br/> for buyers and sellers of cattle <br/>in the Uganda </p>
                </div>
                <div className="image">
                   <img src={image} alt="image"/>
