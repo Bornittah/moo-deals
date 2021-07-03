@@ -5,7 +5,13 @@ body{
   padding: 0;
   background: #f5f3f0;
 }
-
+.App{
+   height: 100%;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
 .top-bar{
   background-color: #233D22;
   color: #fff;
@@ -52,35 +58,60 @@ body{
   .home{
   background-color: #f5f3f0;
   color: #0000;
-  width: 100%;
+  width: 98%;
   height:60%;
   display:flex;
+  margin:0 auto;
   /* position: absolute; */
   
 }
-
 .sidebar{
- flex:1;
  margin:20px 10p;
- /* width:100px; */
+ background: #C4C4C4;
+ border-radius: 5px;
 }
+.sidebar h3{
+  margin:20px;
+  color :#F37908;
+ }
+.sidebar ul li {
+  list-style: none;
+  border: #fff;
+  border-bottom: 1px #fff;
+  padding: 5px;
+  margin: 10px;
+ }
 .sidebar ul li a{
- color: #F37908;
-  
+ color: #000;
+ text-decoration: none;
+ border: #fff;
+ border-bottom: 1px #fff;
 }
+.sidebar ul li a:hover{
+  color:#F37908;
+  text-decoration: none;
+  border-bottom: 1px solid #F37908;
+   
+  }
 .text{
   flex:1;
 }
 .text h1{
 color:#000;
-margin:50px 5px;
+margin:20px 5px;
+text-align: center;
 }
-.text p{
-  color:#ffff;
+.text .desc{
   background-color:#F37908 ;
-  padding:10px;
-  height: auto;
+  border-radius: 10px 70px ;
+  width: 80%;
   margin: 0 auto;
+  height: 50%;
+}
+.text .desc p{
+  color:#ffff;
+  /* padding:30px; */
+  height: auto;
   text-align: center;
   line-height: 2;
 }
@@ -98,11 +129,6 @@ margin:50px 5px;
   border-radius: 25px;
 }
 
-/* cattle grid*/
-/* .cattle-section{
-  height:auto;
-  background-color: #233D22;
-} */
 .head-section{
   height:auto;
   display:block;
@@ -158,7 +184,6 @@ height: 80%;
   /* footer */
 
   .footer{
-    /* position: fixed; */
     bottom:0;
     height: 30px;
     color:#000;
@@ -166,8 +191,6 @@ height: 80%;
     width: 100%;
     height:auto;
     margin-top:20px;
-    /* margin-bottom: 10px; */
-    /* background-color: #fff; */
   }
   .floating-button{
     border-radius: 50%;
@@ -177,6 +200,7 @@ height: 80%;
     margin-right: 10px;
     padding: 6px; 
     display: inline;
+    color:#fff;
     /* position: fixed; */
   }
   .footer ul{
@@ -193,8 +217,9 @@ height: 80%;
   /* each cattle page */
   .row{
     display:flex;
-    width:100%;
+    width:90%;
     height: 100%;
+    margin: 0 auto;
   }
   .column{
     flex:1;
@@ -235,11 +260,16 @@ height: 80%;
     margin: 10px;
   }
   /* register and login pages */
-
+  .account-form{
+    margin: 0 auto;
+    /* position: relative; */
+    width:80%;
+    height:100%;
+  }
   form{
     margin: 0 auto;
     position: relative;
-    width:80%;
+    width:100%;
   }
   form h1{
     margin: 0 auto;

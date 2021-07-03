@@ -2,9 +2,12 @@ import React from "react";
 import images from '.././assets/images/index.js';
 import PropTypes from 'prop-types';
 import Footer from './Footer.js';
+import NavigationBar from './NavigationBar.js';
 
 const EachCattle=()=>{
     return(
+      <div>
+            <NavigationBar/>
         <div className="catlle-display">
             <div className="row">
                 <div className="column">
@@ -58,6 +61,7 @@ const EachCattle=()=>{
                 </div>
             </div>
             <Footer/>
+        </div>
         </div>
     )
 }

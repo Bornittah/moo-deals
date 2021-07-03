@@ -1,10 +1,10 @@
 
 import React from "react";
 import {Link} from 'react-router-dom';
-import images from '.././assets/images/index.js';
+import images from '../assets/images/index.js';
 import PropTypes from 'prop-types';
 
- const Cattles=()=>{
+ const CattleSection=()=>{
      return(
         <div className="cattle-section">
             <div className="head-section">
@@ -25,28 +25,34 @@ import PropTypes from 'prop-types';
                     </Link>
                 </div>
               <div className="each-cattle">
+              <Link to="/cattle-for-sale">
                     <img src={images.cattle2} alt="cattle1"/>
                         <div className="title-price">
                                 <div id="cattle-name"><span>Cattle 1</span></div>
                                 <div id="cattle-price">UGX:<span >800,000</span></div>
                         </div>
+                        </Link>
                 </div>
                 <div className="each-cattle">
+                <Link to="/cattle-for-sale">
                     <img src={images.cattle3} alt="cattle1"/>
                         <div className="title-price">
                                 <div id="cattle-name"><span>Cattle 1</span></div>
                                 <div id="cattle-price">UGX:<span >800,000</span></div>
                         </div>
+                     </Link>
                 </div>
                 <div className="each-cattle">
+                <Link to="/cattle-for-sale">
                     <img src={images.cattle4} alt="cattle1"/>
                         <div className="title-price">
                                 <div id="cattle-name"><span>Cattle 1</span></div>
                                 <div id="cattle-price">UGX:<span >800,000</span></div>
                         </div>
+                     </Link>
                 </div> 
             </div>
         </div>
      )
  }
- export default Cattles
+ export default CattleSection

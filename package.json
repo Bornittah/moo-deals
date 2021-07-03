@@ -1,6 +1,5 @@
 {
-  "homepage": "http://bornittah.github.io/moo-deals",
-  "name": "moo-deals",
+  "homepage": "http://bornittah.github.io/moo-deals/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

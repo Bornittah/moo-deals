@@ -1,10 +1,13 @@
 import React from 'react';
+import NavigationBar from './NavigationBar.js';
 import Footer from './Footer.js';
 
 const Register=()=>{
     return(
         <div>
-            <form>
+        <NavigationBar/>
+        <div className="account-form">
+            <form >
                 <h1>ACCOUNT DETAILS</h1>
                 <div className="form-group">
                     <label>Fullname</label>
@@ -72,7 +75,9 @@ const Register=()=>{
                    
                 </div>
             </form>
-            <Footer/>
+           
+        </div>
+        <Footer/> 
         </div>
     )
 }

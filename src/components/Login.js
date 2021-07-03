@@ -1,8 +1,11 @@
 import React from 'react';
+import NavigationBar from './NavigationBar.js';
 import Footer from './Footer.js';
 const Login=()=>{
     return(
-        <div className="">
+        <div>
+         <NavigationBar/>
+        <div className="account-form">
             <form>
                 <h1>SIGN IN</h1>
                 <div className="form-group">
@@ -19,7 +22,9 @@ const Login=()=>{
                     <label>I forgot password</label>
                 </div>
             </form>
-            <Footer/>
+           
+        </div>
+        <Footer/> 
         </div>
     )
 }

@@ -1,14 +1,17 @@
 import React from "react";
+// import Home from './Home.js';
+import CattleSection from './CattleSection.js';
+import NavigationBar from './NavigationBar.js';
 import Home from './Home.js';
-import Cattles from './Cattles.js';
-import EachCattle from './EachCattle.js';
+import Footer from './Footer.js';
 
 const HomePage=()=>{
     return(
         <div>
-            <h1>Cattle</h1>
+            <NavigationBar/>
             <Home/>
-            <Cattles/>
+            <CattleSection/>
+            <Footer/>
         </div>
     )
 }
