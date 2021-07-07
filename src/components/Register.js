@@ -1,11 +1,10 @@
 import React from 'react';
-import NavigationBar from './NavigationBar.js';
 import Footer from './Footer.js';
 
 const Register=()=>{
     return(
         <div>
-        <NavigationBar/>
+       
         <div className="account-form">
             <form >
                 <h1>ACCOUNT DETAILS</h1>
@@ -15,25 +14,25 @@ const Register=()=>{
                 </div>
                 <div className="two-columns">
                     <div className="form-group">
-                        <labe>Phone number</labe>
+                        <label>Phone number</label>
                         <input type="text"/>
                     </div>
                     <div className="form-group">
-                    <labe>Alternative</labe>
+                    <label>Alternative</label>
                     <input type="text"/>
                 </div>
                 </div>
                 <div className="form-group">
-                    <labe>Email Address</labe>
+                    <label>Email Address</label>
                     <input type="text"/>
                 </div>
                 <div className="two-columns">
                     <div className="form-group">
-                        <labe>Password</labe>
+                        <label>Password</label>
                         <input type="password"/>
                     </div>
                     <div className="form-group">
-                    <labe>Confirm Password</labe>
+                    <label>Confirm Password</label>
                     <input type="password"/>
                 </div>
                 </div>
@@ -46,7 +45,7 @@ const Register=()=>{
                         </select>
                     </div>
                     <div className="form-group">
-                        <labe>Parish</labe>
+                        <label>Parish</label>
                         <select>
                             <option>Parish</option>
                         </select>
@@ -54,13 +53,13 @@ const Register=()=>{
                 </div>
                 <div className="two-columns">
                     <div className="form-group">
-                        <labe>Sub-County</labe>
+                        <label>Sub-County</label>
                         <select>
                             <option>Sub-County</option>
                         </select>
                     </div>
                     <div className="form-group">
-                        <labe>District</labe>
+                        <label>District</label>
                         <select>
                             <option>District</option>
                         </select>

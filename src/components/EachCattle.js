@@ -2,12 +2,11 @@ import React from "react";
 import images from '.././assets/images/index.js';
 import PropTypes from 'prop-types';
 import Footer from './Footer.js';
-import NavigationBar from './NavigationBar.js';
 
 const EachCattle=()=>{
     return(
       <div>
-            <NavigationBar/>
+            
         <div className="catlle-display">
             <div className="row">
                 <div className="column">
@@ -35,7 +34,8 @@ const EachCattle=()=>{
                         <div className="details">
                         <h1>Details</h1>
                         <table>
-                            <tr>
+                           <tbody>
+                           <tr>
                                 <td>Quantity:</td>
                                 <td>1</td>
                             </tr>
@@ -55,6 +55,7 @@ const EachCattle=()=>{
                                 <td>Listing Date:</td>
                                 <td>1st July 2021 12:00</td>
                             </tr>
+                           </tbody>
                         </table>
                         </div>
                     </div>

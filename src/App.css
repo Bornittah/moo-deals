@@ -344,4 +344,66 @@ height: 80%;
     background: #C4C4C4;
    }
 
-  
+  /* each category page */
+  .container{
+    display: inline-block;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.category-sidebar{
+   width:18%;
+   background-color:#fff;
+   height: 100%;
+   color: #000;
+   position: fixed;
+   display: block;
+
+}
+.category-sidebar nav{
+   color: #000;
+   padding-top: 50px;
+}
+.category-sidebar nav ul{
+   list-style: none;
+ 
+}
+.category-sidebar nav ul li{
+   padding-top: 25px;
+}
+.category-sidebar nav ul li a{
+   text-decoration: none;
+   color: #0000;
+}
+/* content */
+.content{
+   display: block;
+   width: 75%;
+   background-color: rgb(216, 221, 205);
+   margin-left: 20%;
+   position: fixed;
+   height: 100%;
+   overflow-y: auto;
+}
+
+.category-row{
+   display:flex;
+   width: 80%;
+   height: 45%;
+   padding-top: 15%;
+   margin:0 auto;
+   position: relative;
+}
+.category-column{
+flex:50%;
+background-color: #fff;
+margin-left: 15px;
+text-align: center;
+}
+
+ul{
+   list-style: none;
+}

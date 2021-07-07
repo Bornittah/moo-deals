@@ -22,7 +22,7 @@ import PropTypes from 'prop-types';
                                 <div id="cattle-name"><span>Cattle 1</span></div>
                                 <div id="cattle-price">UGX:<span >800,000</span></div>
                         </div>
-                    </Link>
+                </Link>
                 </div>
               <div className="each-cattle">
               <Link to="/cattle-for-sale">
@@ -31,7 +31,7 @@ import PropTypes from 'prop-types';
                                 <div id="cattle-name"><span>Cattle 1</span></div>
                                 <div id="cattle-price">UGX:<span >800,000</span></div>
                         </div>
-                        </Link>
+                </Link>
                 </div>
                 <div className="each-cattle">
                 <Link to="/cattle-for-sale">

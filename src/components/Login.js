@@ -1,10 +1,8 @@
 import React from 'react';
-import NavigationBar from './NavigationBar.js';
 import Footer from './Footer.js';
 const Login=()=>{
     return(
         <div>
-         <NavigationBar/>
         <div className="account-form">
             <form>
                 <h1>SIGN IN</h1>
