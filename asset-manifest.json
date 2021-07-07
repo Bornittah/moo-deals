@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/moo-deals/static/css/main.6b547b66.chunk.css",
-    "main.js": "/moo-deals/static/js/main.1bd80802.chunk.js",
-    "main.js.map": "/moo-deals/static/js/main.1bd80802.chunk.js.map",
+    "main.css": "/moo-deals/static/css/main.0397b6cd.chunk.css",
+    "main.js": "/moo-deals/static/js/main.a24990fc.chunk.js",
+    "main.js.map": "/moo-deals/static/js/main.a24990fc.chunk.js.map",
     "runtime-main.js": "/moo-deals/static/js/runtime-main.54f11583.js",
     "runtime-main.js.map": "/moo-deals/static/js/runtime-main.54f11583.js.map",
-    "static/js/2.e04c8598.chunk.js": "/moo-deals/static/js/2.e04c8598.chunk.js",
-    "static/js/2.e04c8598.chunk.js.map": "/moo-deals/static/js/2.e04c8598.chunk.js.map",
+    "static/js/2.ca2782a9.chunk.js": "/moo-deals/static/js/2.ca2782a9.chunk.js",
+    "static/js/2.ca2782a9.chunk.js.map": "/moo-deals/static/js/2.ca2782a9.chunk.js.map",
     "static/js/3.b1f8deb8.chunk.js": "/moo-deals/static/js/3.b1f8deb8.chunk.js",
     "static/js/3.b1f8deb8.chunk.js.map": "/moo-deals/static/js/3.b1f8deb8.chunk.js.map",
     "index.html": "/moo-deals/index.html",
-    "static/css/main.6b547b66.chunk.css.map": "/moo-deals/static/css/main.6b547b66.chunk.css.map",
-    "static/js/2.e04c8598.chunk.js.LICENSE.txt": "/moo-deals/static/js/2.e04c8598.chunk.js.LICENSE.txt",
+    "static/css/main.0397b6cd.chunk.css.map": "/moo-deals/static/css/main.0397b6cd.chunk.css.map",
+    "static/js/2.ca2782a9.chunk.js.LICENSE.txt": "/moo-deals/static/js/2.ca2782a9.chunk.js.LICENSE.txt",
     "static/media/ankole-bg.9750ff55.jpg": "/moo-deals/static/media/ankole-bg.9750ff55.jpg",
     "static/media/ankole-bg2.f33d545c.png": "/moo-deals/static/media/ankole-bg2.f33d545c.png",
     "static/media/ankole-cattle1.bd6c2460.jpg": "/moo-deals/static/media/ankole-cattle1.bd6c2460.jpg",
     "static/media/ankole-cattle2.6c4aaf24.jpg": "/moo-deals/static/media/ankole-cattle2.6c4aaf24.jpg",
     "static/media/ankole-cattle3.3631a97a.jpg": "/moo-deals/static/media/ankole-cattle3.3631a97a.jpg",
-    "static/media/ankole-cattle4.ed99a365.jpeg": "/moo-deals/static/media/ankole-cattle4.ed99a365.jpeg",
-    "static/media/logo.6ce24c58.svg": "/moo-deals/static/media/logo.6ce24c58.svg"
+    "static/media/ankole-cattle4.ed99a365.jpeg": "/moo-deals/static/media/ankole-cattle4.ed99a365.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.54f11583.js",
-    "static/js/2.e04c8598.chunk.js",
-    "static/css/main.6b547b66.chunk.css",
-    "static/js/main.1bd80802.chunk.js"
+    "static/js/2.ca2782a9.chunk.js",
+    "static/css/main.0397b6cd.chunk.css",
+    "static/js/main.a24990fc.chunk.js"
   ]
 }
